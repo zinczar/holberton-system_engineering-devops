@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Bash script that displays dir contents in a list format with partial name
+for i in *
+do
+  echo "${i#*-}"
+done
