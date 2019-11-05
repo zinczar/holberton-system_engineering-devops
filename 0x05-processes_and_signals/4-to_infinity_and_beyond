@@ -1,1 +1,6 @@
-#!/usr/bin/
+#!/usr/bin/env bash
+# Bash script that displays To infinity and beyond indefinitely
+for (( c=1; c>0; c++)) ; do
+echo 'To infinity and beyond'
+sleep 2
+done
