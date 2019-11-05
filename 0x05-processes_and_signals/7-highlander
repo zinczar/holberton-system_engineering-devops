@@ -1,1 +1,7 @@
-#!/usr/bin/
+#!/usr/bin/env bash
+# Bash script that displays an infinite  message w/ SIGTERM
+for (( c=1; c>0; c++)) ; do
+echo 'To infinity and beyond'
+trap echo 'I am invincible!!!' SIGTERM
+sleep 2
+done
